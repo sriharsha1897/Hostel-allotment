@@ -1,0 +1,71 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+
+.container{
+    width : 70vw;
+    padding : 10px 20px;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    color : black;
+    border-radius : 8px;
+}
+.mainheading {
+    font-size : 24px;
+    text-align: center;
+    margin : 10px 0 20px 0;
+}
+.choiceWrapper{
+    width : 50%;
+    border : 1px solid #ccc;
+    border-radius : 8px;
+}
+.option{
+    font-size : 16px;
+    background : rgb(241, 241, 241);
+    padding : 4px 12px;
+    border-radius: 14px;
+    outline : none;
+    cursor : pointer;
+    margin : 0 0 10px 0;
+}
+.btn{
+    width : 70px;
+    height : 60px;
+    font-size : 24px;
+    padding : 2px;
+    cursor : pointer;
+    background : rgb(92, 134, 53);
+    border : none;
+    outline : none;
+    border-radius : 6px;
+    color : #fff;
+    font-weight: 600;
+    margin : 10px 20px;
+    transition : all 0.3s;
+}
+.btn:hover{
+    background: red;
+}
+.bookBtn{
+    width : 200px;
+    font-size : 20px;
+    border : none;
+    border-radius: 16px;
+    padding : 6px 12px;
+    background: rgb(26, 127, 243);
+    box-shadow: 2px 4px 4px #ccc;
+    color : #fff;
+    cursor : pointer;
+    position : absolute;
+    bottom: 20px;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}

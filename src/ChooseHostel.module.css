@@ -1,0 +1,48 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+
+.container{
+    width : 70vw;
+    padding : 10px 20px;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    color : black;
+    border-radius : 8px;
+}
+.heading {
+    font-size : 32px;
+    text-align: center;
+    margin : 10px 0 40px 0;
+}
+.btnWrapper{
+    width : 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding : 1em 3em;
+}
+.btn{
+    width : 70px;
+    height : 60px;
+    font-size : 24px;
+    padding : 2px;
+    cursor : pointer;
+    background : rgb(82, 29, 29);
+    border : none;
+    outline : none;
+    border-radius : 6px;
+    color : #fff;
+    font-weight: 600;
+    margin : 10px 20px;
+    transition : all 0.3s;
+}
+.btn:hover{
+    background: rgb(94, 243, 48);
+}

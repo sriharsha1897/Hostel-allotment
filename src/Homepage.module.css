@@ -1,0 +1,70 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+
+.container{
+    width : 30vw;
+    padding : 10px 20px;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    color : black;
+    border-radius : 8px;
+    background-color: rgb(134, 155, 218);
+    
+}
+.heading{
+    font-size : 24px;
+    margin : 10px 0;
+}
+.subheading{
+    font-size : 18px;
+    font-weight : 200;
+    margin : 10px;
+}
+.googleBtn{
+    width : 200px;
+    margin : 10px 0;
+    background : rgb(247, 9, 9);
+    padding : 6px 10px;
+    border : 1px solid #ccc;
+    outline : none;
+    cursor : pointer;
+    font-size : 14px;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 4px #ccc;
+    color: white;
+}
+.googleBtn i{
+    margin-right : 10px;
+    font-size : 16px;
+}
+.facebookBtn{
+    width : 200px;
+    margin : 10px 0;
+    background : #4267B2;
+    padding : 6px 10px;
+    border : none;
+    outline : none;
+    cursor : pointer;
+    font-size : 14px;
+    color : #fff;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 4px #ccc;
+}
+.facebookBtn i{
+    margin-right : 10px;
+    font-size : 16px;
+}

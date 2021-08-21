@@ -1,0 +1,56 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+
+.container{
+    width : 70vw;
+    padding : 10px 20px;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    color : black;
+    border-radius : 8px;
+}
+.mainheading {
+    font-size : 32px;
+    text-align: center;
+    margin : 10px 0 40px 0;
+}
+.choiceWrapper{
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.choiceDiv{
+    width : 30%;
+    
+    background : rgba(66, 94, 255, 0.952);
+    padding : 2em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    cursor : pointer;
+}
+.avatar {
+    width : 100px;
+    border-radius: 50%;
+}
+.subheading {
+    margin : 10px 0;
+    font-size: 18px;
+}
+.girlHostel{
+    background-color: rgba(199, 108, 199, 0.9);
+}
+.boyHostel{
+    background-color: rgba(104, 179, 214, 0.9);
+}
